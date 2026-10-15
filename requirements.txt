@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+pandas
+scikit-learn
+docker
+python-jose[cryptography]
+passlib[bcrypt]
+pymysql
+python-multipart

@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS healing_actions (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    triggered_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    container VARCHAR(100) NOT NULL,
+    metric VARCHAR(50),
+    reason VARCHAR(255),
+    action VARCHAR(50) NOT NULL,
+    success BOOLEAN DEFAULT TRUE,
+    details VARCHAR(255)
+);
